@@ -6,6 +6,8 @@ import javax.annotation.PreDestroy;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
+import com.vwits.interfaces.VehicleServices;
+
 @Component
 public class Vehicle {
 	private String name="Volkswagen";

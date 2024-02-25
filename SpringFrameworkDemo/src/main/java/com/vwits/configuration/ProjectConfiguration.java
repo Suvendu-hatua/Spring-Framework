@@ -4,7 +4,7 @@ import org.springframework.context.annotation.ComponentScan;
 
 
 @org.springframework.context.annotation.Configuration
-@ComponentScan(basePackages = {"com.vwits.beans"})
+@ComponentScan(basePackages = {"com.vwits.beans","com.vwits.interfaces"})
 public class ProjectConfiguration {
 	
 //	@Bean(name = "Audi Car")
