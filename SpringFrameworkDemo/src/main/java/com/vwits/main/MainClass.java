@@ -29,7 +29,7 @@ public class MainClass {
 //		vehicle.getVehicleServices().getTyres().rotate();
 
 		
-//		context.close();
+		context.close();
 		
 	}
 
